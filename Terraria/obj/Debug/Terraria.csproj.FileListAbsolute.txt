@@ -1,0 +1,9 @@
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\bin\Debug\Terraria.exe.config
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\bin\Debug\Terraria.exe
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\bin\Debug\Terraria.pdb
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\obj\Debug\Terraria.csprojResolveAssemblyReference.cache
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\obj\Debug\Terraria.Terraria.resources
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\obj\Debug\Terraria.Properties.Resources.resources
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\obj\Debug\Terraria.csproj.GenerateResource.Cache
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\obj\Debug\Terraria.exe
+C:\Users\Filippo\Desktop\C#\Terraria\Terraria\obj\Debug\Terraria.pdb
