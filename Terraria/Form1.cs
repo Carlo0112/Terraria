@@ -20,6 +20,7 @@ namespace Terraria
         {
             //PROVA AD ESEGUIRE IL TUTTO
             //
+            int versione = 1;
             try
             {
                 //CREA IL CONFIG
@@ -31,10 +32,24 @@ namespace Terraria
                 }
                 using (FileStream fs = File.Create(path))
                 {
-                    Byte[] info = new UTF8Encoding(true).GetBytes("Linea numero 1\nLinea numero 2\nLinea numero 3");
+                    Byte[] info = new UTF8Encoding(true).GetBytes("Versione: " + versione + "\nFile: \nProva: ");
                     // Add some information to the file.
                     fs.Write(info, 0, info.Length);
                 }
+
+                // Legge i file nel config.yml
+                //
+                string conf1 = File.ReadLines(path).Skip(0).Take(1).First();
+                Console.WriteLine(conf1);
+                conf2 = File.ReadLines(path).Skip(1).Take(1).First();
+                Console.WriteLine(conf2);
+                conf3 = File.ReadLines(path).Skip(2).Take(1).First();
+                Console.WriteLine(conf3);
+                
+                conf1 = conf1.Replace("Versione: ","");
+                conf2 = conf2.Replace("File: ","");
+                conf3 = conf3.Replace("Prova: ","");
+                Console.WriteLine("Terraria\nConfigurazione:\n" + conf1 + "\n" + conf2 + "\n" + conf3)
                 //
                 //
                 
