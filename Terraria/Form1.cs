@@ -22,6 +22,22 @@ namespace Terraria
             //
             try
             {
+                //CREA IL CONFIG
+                //            
+                string path = "config.yml";
+                if (File.Exists(path))
+                {
+                    File.Delete(path);
+                }
+                using (FileStream fs = File.Create(path))
+                {
+                    Byte[] info = new UTF8Encoding(true).GetBytes("This is some text in the file.");
+                    // Add some information to the file.
+                    fs.Write(info, 0, info.Length);
+                }
+                //
+                //
+                
                 //VARIABILI
                 //
                 string download = "http://89.234.182.77/server.html";
