@@ -24,7 +24,7 @@ namespace Terraria
             {
                 //VARIABILI
                 //
-                string download = "http://89.234.182.77/server.html;
+                string download = "http://89.234.182.77/server.html";
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(download);
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
