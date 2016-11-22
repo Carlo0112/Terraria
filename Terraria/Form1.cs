@@ -31,7 +31,7 @@ namespace Terraria
                 }
                 using (FileStream fs = File.Create(path))
                 {
-                    Byte[] info = new UTF8Encoding(true).GetBytes("This is some text in the file.");
+                    Byte[] info = new UTF8Encoding(true).GetBytes("Linea numero 1\nLinea numero 2\nLinea numero 3");
                     // Add some information to the file.
                     fs.Write(info, 0, info.Length);
                 }
